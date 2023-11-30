@@ -1,0 +1,16 @@
+baseURL = 'https://www.conciergecomputing.com/'
+languageCode = 'en-us'
+title = 'Concierge Computing'
+theme = 'ananke'
+
+[module]
+[[module.mounts]]
+    source = 'content'
+    target = 'content'
+[[module.mounts]]
+    source = 'README.md'
+    target = 'content/README.md'
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/GoHugoIO"

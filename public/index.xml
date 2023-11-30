@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Concierge Computing</title>
+    <link>https://www.conciergecomputing.com/</link>
+    <description>Recent content on Concierge Computing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Nov 2023 15:25:18 -0800</lastBuildDate>
+    <atom:link href="https://www.conciergecomputing.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Us</title>
+      <link>https://www.conciergecomputing.com/posts/about-us/</link>
+      <pubDate>Mon, 27 Nov 2023 15:25:18 -0800</pubDate>
+      <guid>https://www.conciergecomputing.com/posts/about-us/</guid>
+      <description>Concierge Compting is a bespoke technology training and support service.
+Initially there will be a consultation to discuss technical history, lifestyle, and technology goals. After enrollment, participants gain access to personalized lesson plans, technology reviews and upgrades, extended appointment times, and enhanced communication channels for ongoing support.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.conciergecomputing.com/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.conciergecomputing.com/readme/</guid>
+      <description>Steps taken to create this project: ** install hugo with homebrew **
+brew install hugo run these commands to create a new site and add the ananke theme hugo new site quickstart cd quickstart git init git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke echo &amp;#34;theme = &amp;#39;ananke&amp;#39;&amp;#34; &amp;gt;&amp;gt; hugo.toml hugo server -add content to the site
+hugo new content posts/my-first-post.md Edit the file you just created using markdown syntax.
+Run the server again to see the changes, use the following commands to see drafts and posts marked as draft in the front matter.</description>
+    </item>
+  </channel>
+</rss>
