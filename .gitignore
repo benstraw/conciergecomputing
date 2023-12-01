@@ -1,0 +1,16 @@
+# Hugo
+/public/
+/resources/
+/themes/*/exampleSite/
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editor-specific
+.vscode/
+.idea/
