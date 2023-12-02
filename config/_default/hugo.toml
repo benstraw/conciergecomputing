@@ -1,8 +1,29 @@
 baseURL = 'https://www.conciergecomputing.com/'
 languageCode = 'en-us'
-title = 'Concierge Computing'
+title = 'Concierge Computing test'
 theme = 'ananke'
+sectionPagesMenu = 'main'
 
-[[params.ananke_socials]]
-    name = "twitter"
-url = "https://twitter.com/GoHugoIO"
+[menu]
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact Us"
+  url = "/contact"
+  weight = 10
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/posts/about-us/"
+  weight = 20
+
+[module]
+[[module.mounts]]
+    source = 'content'
+    target = 'content'
+[[module.mounts]]
+    source = 'README.md'
+    target = 'content/README.md'
+  
+# [[params.ananke_socials]]
+#     name = "twitter"
+# url = "https://twitter.com/GoHugoIO"
