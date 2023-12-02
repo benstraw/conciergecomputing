@@ -1,3 +1,21 @@
+title = 'Concierge Computing development environment'
+[menu]
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact Us"
+  url = "/contact"
+  weight = 10
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about-us/"
+  weight = 20
+[[menu.main]]
+  identifier = "readme"
+  name = "Dev Docs"
+  url = "/readme"
+  weight = 11
+
 [module]
 [[module.mounts]]
     source = 'content'
@@ -5,3 +23,4 @@
 [[module.mounts]]
     source = 'README.md'
     target = 'content/README.md'
+

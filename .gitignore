@@ -4,6 +4,10 @@
 /themes/*/exampleSite/
 *.log
 
+# frontmatter
+.frontmatter/
+frontmatter.json
+
 # macOS
 .DS_Store
 
