@@ -73,3 +73,20 @@ Executing command: hugo version
 2023-12-01T23:49:28.035Z [INFO]: WARN 2023/12/01 23:49:28 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
 2023-12-01T23:49:28.036Z [INFO]: WARN 2023/12/01 23:49:28 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
 ```
+#### Solution
+- Updated the amplify.yaml file to include the following:
+```yaml
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - echo "Installing Hugo v0.120.4"
+        - wget https://github.com/gohugoio/hugo/releases/download/v0.120.4/hugo_0.120.4_Linux-64bit.tar.gz
+        - tar -zxvf hugo_0.120.4_Linux-64bit.tar.gz
+        - mv hugo /usr/local/bin/hugo
+        - hugo version
+    build:
+      commands:
+        - hugo
+```
+- This will install the same version of hugo that I am using locally, and then run the hugo command to build the site.
