@@ -1,4 +1,13 @@
-title = 'Concierge Computing development environment'
+title = 'Concierge Computing dev server'
+
+[module]
+[[module.mounts]]
+  source = 'content'
+  target = 'content'
+[[module.mounts]]
+  source = 'README.md'
+  target = 'content/README.md'
+
 [menu]
 [[menu.main]]
   identifier = "contact"
@@ -11,16 +20,19 @@ title = 'Concierge Computing development environment'
   url = "/about-us/"
   weight = 20
 [[menu.main]]
+  identifier = "learning"
+  name = "Learning"
+  url = "/learning/"
+  weight = 30
+[[menu.main]]
   identifier = "readme"
   name = "Dev Docs"
   url = "/readme"
   weight = 11
+ [[menu.main]]
+  identifier = "newsletter"
+  name = "Newsletter"
+  url = "/newsletter/"
+  weight = 30 
 
-[module]
-[[module.mounts]]
-    source = 'content'
-    target = 'content'
-[[module.mounts]]
-    source = 'README.md'
-    target = 'content/README.md'
 

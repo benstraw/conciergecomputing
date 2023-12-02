@@ -1,3 +1,4 @@
+
 ## Steps taken to create this project:
 
 ** install hugo with homebrew **
@@ -90,3 +91,14 @@ frontend:
         - hugo
 ```
 - This will install the same version of hugo that I am using locally, and then run the hugo command to build the site.
+
+### Menus
+- I used the hugo.toml to configure the menus for the site. I added the following to the hugo.toml file:
+```toml
+[menu]
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact Us"
+  url = "/contact"
+  weight = 10
+```

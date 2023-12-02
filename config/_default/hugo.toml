@@ -2,7 +2,7 @@ baseURL = 'https://www.conciergecomputing.com/'
 languageCode = 'en-us'
 title = 'Concierge Computing test'
 theme = 'ananke'
-sectionPagesMenu = 'main'
+# sectionPagesMenu = 'main'
 
 [menu]
 [[menu.main]]
@@ -13,16 +13,20 @@ sectionPagesMenu = 'main'
 [[menu.main]]
   identifier = "about"
   name = "About"
-  url = "/posts/about-us/"
+  url = "/about-us/"
   weight = 20
+[[menu.main]]
+  identifier = "learning"
+  name = "Learning"
+  url = "/learning/"
+  weight = 30
+[[menu.main]]
+  identifier = "newsletter"
+  name = "Newsletter"
+  url = "/newsletter/"
+  weight = 30
 
-[module]
-[[module.mounts]]
-    source = 'content'
-    target = 'content'
-[[module.mounts]]
-    source = 'README.md'
-    target = 'content/README.md'
+
   
 # [[params.ananke_socials]]
 #     name = "twitter"
