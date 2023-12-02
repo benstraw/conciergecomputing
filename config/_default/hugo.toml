@@ -1,6 +1,6 @@
 baseURL = 'https://www.conciergecomputing.com/'
 languageCode = 'en-us'
-title = 'Concierge Computing'
+title = 'Concierge Computing test'
 theme = 'ananke'
 # sectionPagesMenu = 'main'
 
