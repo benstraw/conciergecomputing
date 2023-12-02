@@ -1,6 +1,6 @@
 baseURL = 'https://www.conciergecomputing.com/'
 languageCode = 'en-us'
-title = 'Concierge Computing test'
+title = 'Concierge Computing'
 theme = 'ananke'
 # sectionPagesMenu = 'main'
 
@@ -19,6 +19,11 @@ theme = 'ananke'
   identifier = "learning"
   name = "Learning"
   url = "/learning/"
+  weight = 30
+[[menu.main]]
+  identifier = "newsletter"
+  name = "Newsletter"
+  url = "/newsletter/"
   weight = 30
 
 

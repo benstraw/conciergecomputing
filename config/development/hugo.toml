@@ -1,4 +1,4 @@
-title = 'Concierge Computing development env'
+title = 'Concierge Computing dev server'
 
 [module]
 [[module.mounts]]
@@ -29,6 +29,10 @@ title = 'Concierge Computing development env'
   name = "Dev Docs"
   url = "/readme"
   weight = 11
-  
+ [[menu.main]]
+  identifier = "newsletter"
+  name = "Newsletter"
+  url = "/newsletter/"
+  weight = 30 
 
 
