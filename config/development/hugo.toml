@@ -1,0 +1,7 @@
+[module]
+[[module.mounts]]
+    source = 'content'
+    target = 'content'
+[[module.mounts]]
+    source = 'README.md'
+    target = 'content/README.md'
