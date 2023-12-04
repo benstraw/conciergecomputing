@@ -1,1 +1,5 @@
 title = "Concierge Computing in prod"
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-ZVNEKJ1M38'
