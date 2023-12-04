@@ -15,7 +15,7 @@ echo "theme = 'ananke'" >> hugo.toml
 hugo server
 ```
 
--add content to the site
+- add content to the site
 ```bash
 hugo new content posts/my-first-post.md
 ```
@@ -28,6 +28,13 @@ hugo --buildDrafts    # or -D
 hugo --buildExpired   # or -E
 hugo --buildFuture    # or -F
 ```
+
+- use a featured image on category pages
+Within the front matter of the _index.md file for a category, add the following:
+```toml
+featured_image = '2023-11-08\ 10.03.14.jpg'
+```
+
 
 ### Commands
 ** Automatic redirection to changed content **
@@ -92,6 +99,16 @@ frontend:
 ```
 - This will install the same version of hugo that I am using locally, and then run the hugo command to build the site.
 
+#### Updated Solution
+- If you need to use a different, perhaps newer, version of Hugo than the version currently supported by AWS Amplify:
+
+- Visit the AWS Amplify Console, and click the app you would like to modify
+- In the side navigation bar, Under App Settings, click Build settings
+- On the Build settings page, near the bottom, there is a section called Build image settings. Click Edit
+- Under Live package updates, click Add package version override
+- From the selection, click Hugo and ensure the version field says latest
+- Click Save to save the changes.
+
 ### Menus
 - I used the hugo.toml to configure the menus for the site. I added the following to the hugo.toml file:
 ```toml
@@ -102,3 +119,12 @@ frontend:
   url = "/contact"
   weight = 10
 ```
+
+### Sections
+- Create a new section by creating a folder in the content directory with the name of the section. Then create an _index.md file in that directory. The front matter for the _index.md file will be used to configure the section.
+```bash
+hugo new content/newsletter/_index.md
+```
+
+
+- Some links to move later
