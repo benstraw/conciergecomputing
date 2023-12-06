@@ -14,6 +14,16 @@ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git theme
 echo "theme = 'ananke'" >> hugo.toml
 hugo server
 ```
+- edit the archetypes/default.md file to customize the default front matter for new content.
+- I removed `draft` and added `tags` and `description` to the front matter.
+```toml
++++
+title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+date = {{ .Date }}
+tags = []
+description = ""
++++
+```
 
 - add content to the site
 ```bash
