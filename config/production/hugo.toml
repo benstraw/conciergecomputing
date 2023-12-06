@@ -1,1 +1,7 @@
-title = "Concierge Computing in prod"
+[params]
+  title = "Concierge Computing in prod"
+  env = "production"
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-ZVNEKJ1M38'
