@@ -144,3 +144,9 @@ hugo new content/newsletter/_index.md
 
 
 - Some links to move later
+
+### Analytics
+- For analytics I setup a google analytics account and added the tracking code to the hugo.toml file under `config/production/hugo.toml`
+```toml
+googleAnalytics = "UA-XXXXXXXXX-X"
+```

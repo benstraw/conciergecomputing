@@ -4,7 +4,8 @@ title = 'Concierge Computing test'
 theme = 'ananke'
 # sectionPagesMenu = 'main'
 googleAnalytics = 'G-ZVNEKJ1M38'
-
+[params]
+  site_logo = "images/cc-logo-dall-e.png"
 [menu]
 [[menu.main]]
   identifier = "contact"
