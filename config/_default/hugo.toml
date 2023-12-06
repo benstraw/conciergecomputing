@@ -5,7 +5,8 @@ theme = 'ananke'
 # sectionPagesMenu = 'main'
 googleAnalytics = 'G-ZVNEKJ1M38'
 [params]
-  site_logo = "images/cc-logo-dall-e.png"
+  # site_logo = "images/cc-logo-dall-e.png"
+  env = "production"
 [menu]
 [[menu.main]]
   identifier = "contact"
