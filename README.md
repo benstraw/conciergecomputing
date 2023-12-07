@@ -57,7 +57,7 @@ hugo server --navigateToChanged
 
 - A list of all the configuration options is available in the [configuration section](https://gohugo.io/getting-started/configuration/) of the documentation.
 
-= cascade is a useful config item which allows passing variables to the theme. For example, in a category file frong matter, add the following to have the featured_image variable passed to the theme:
+- cascade is a useful config item which allows passing variables to the theme. For example, in a category index front matter, add the following to have the featured_image variable passed to the theme and it's descendant pages.:
 ```toml
 [[cascade]]
     featured_image = '2023-11-08-100314.jpg'

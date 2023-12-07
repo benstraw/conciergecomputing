@@ -1,5 +1,7 @@
 title = "Concierge Computing in prod"
-env = "production"
+
+[params]
+  env = "production"
 
 [services]
   [services.googleAnalytics]

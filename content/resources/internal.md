@@ -10,10 +10,13 @@ draft = true
 
 ## Website
 - [Source Code on github](https://github.com/benstraw/conciergecomputing)
+- [Hugo embedded templates](https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates)
 - [Ananke Theme](https://github.com/theNewDynamic/gohugo-theme-ananke#readme)
 - [Hugo Docs](https://gohugo.io/documentation/)
 - [Hugo Configuration](https://gohugo.io/getting-started/configuration/#configuration-file)
 - [Image Processing](https://gohugo.io/content-management/image-processing/)
+- [Image Gallery](https://github.com/bep/gallerydeluxe)
+- [Hugo Sections Guide](https://cloudcannon.com/blog/the-ultimate-guide-to-hugo-sections/)
 
 ## Growth
 - [Google Search Console](https://search.google.com/search-console?resource_id=sc-domain%3Aconciergecomputing.com)
