@@ -1,7 +1,7 @@
 
 ## Steps taken to create this project:
 
-** install hugo with homebrew **
+### install hugo with homebrew
 ```bash
 brew install hugo
 ```
@@ -142,10 +142,9 @@ frontend:
 hugo new content/newsletter/_index.md
 ```
 
+### Some links
 
-- Some links to move later
-
-### Analytics
+#### Analytics
 - For analytics I setup a google analytics account and added the tracking code to the hugo.toml file under `config/production/hugo.toml`
 ```toml
 googleAnalytics = "UA-XXXXXXXXX-X"
