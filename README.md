@@ -7,11 +7,15 @@ brew install hugo
 ```
 - run these commands to create a new site and add the ananke theme
 ```bash
-hugo new site quickstart
-cd quickstart
+hugo new site <name>
+cd <name>
 git init
+# if you want to use a public theme, a good place to look is https://themes.gohugo.io/
 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
-echo "theme = 'ananke'" >> hugo.toml
+# or you can create your own theme with the hugo new command
+hugo new theme <theme_name>
+echo "theme = '<theme_name>'" >> hugo.toml
+# start your server locally
 hugo server
 ```
 - edit the archetypes/default.md file to customize the default front matter for new content.
